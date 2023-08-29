@@ -19,7 +19,7 @@ const LoginForm = () => {
       <label htmlFor="email">이메일</label>
       <input
         id="email"
-        type="email"
+        
         placeholder="test@email.com"
         onChange={handleInputChange}
         value={formData.email}

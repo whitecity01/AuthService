@@ -3,6 +3,7 @@ import MainPage from "./View/MainPage";
 import {BrowserRouter , Routes, Route} from 'react-router-dom';
 import RegisterPage from "./View/RegisterPage";
 import LoginPage from "./View/LoginPage";
+import SuccessPage from "./View/SuccessPage";
 const App = () => {
   return (
     <BrowserRouter>
@@ -10,6 +11,7 @@ const App = () => {
         <Route path='/' element={<MainPage/>}/>
         <Route path='/LoginPage' element={<LoginPage/>}/>
         <Route path='/RegisterPage' element={<RegisterPage/>}/>
+        <Route path='/success' element={<SuccessPage/>}/>
     </Routes>
     </BrowserRouter>
   );
